@@ -1,2 +1,0 @@
-# MObywatel
-zajeb sie elo.
