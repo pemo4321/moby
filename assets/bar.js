@@ -1,8 +1,8 @@
-
 var params = new URLSearchParams(window.location.search);
 
 function sendTo(url){
-    location.href = `/${url}?` + params;
+    // POPRAWKA: Usunięto ukośnik "/" z początku i dodano końcówkę ".html"
+    location.href = url + '.html?' + params;
 }
 
 document.querySelectorAll(".bottom_element_grid").forEach((element) => {
@@ -27,8 +27,8 @@ function getMobileOperatingSystem() {
     }
   
     return 4;
-  }
+}
   
-  if (getMobileOperatingSystem() == 2){
-      document.querySelector(".bottom_bar").style.height = "70px"
+if (getMobileOperatingSystem() == 2){
+    document.querySelector(".bottom_bar").style.height = "70px"
 }
