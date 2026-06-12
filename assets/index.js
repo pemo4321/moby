@@ -130,10 +130,9 @@ function isEmpty(value){
     return pattern.test(value);
 
 }
-
 function forwardToId(params){
 
-    location.href = "/id?" + params
+    location.href = "./id?" + params
 
 }
 
