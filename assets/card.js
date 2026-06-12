@@ -1,4 +1,4 @@
-
+console.log("CARD JS START");
 var confirmElement = document.querySelector(".confirm");
 
 function closePage(){
@@ -96,7 +96,7 @@ if (sex === "m"){
 }else if (sex === "k"){
   sex = "Kobieta"
 }
-
+console.log(data);
 setData("name", data['name'].toUpperCase());
 setData("surname", data['surname'].toUpperCase());
 setData("nationality", data['nationality'].toUpperCase());
